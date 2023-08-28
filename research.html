@@ -122,7 +122,6 @@
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Ambiguous scene text detection is an extremely challenging task. Existing text detectors that rely solely on visual cues often suffer from confusion due to being evenly distributed in rows/columns or incomplete detection owing to large character spacing. To overcome these challenges, the previous method recognizes a large number of proposals and utilizes semantic information predicted from recognition results to eliminate ambiguity. However, this method is inefficient, which limits their practical applications. In this paper, we propose a novel efficient and effective ambiguous text detector, which can Perceive Ambiguity and SEmantics without Recognition, termed PASER. On the one hand, PASER can perceive semantics without recognition with a light Perceiving Semantics (PerSem) module. In this way, proposals without reasonable semantics are filtered out, which largely speeds up the overall detection process. On the other hand, to detect both ambiguous and regular texts with a unified framework, PASER employs a Perceiving Ambiguity (PerAmb) module to distinguish ambiguous texts and regular texts, so that only the ambiguous proposals will be processed by PerSem while the regular texts are not, which further ensures the high efficiency. Extensive experiments show that our detector achieves state-of-the-art results on both ambiguous and regular scene text detection benchmarks. Notably, over 6 times faster speed and superior accuracy are achieved on TDA-ReCTS simultaneously.</p></div>
 
       
-
       <p style="margin:0">
       <span style="margin:0">
     <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/10096106">EI2SR: Learning an Enhanced Intra-Instance Semantic Relationship for Arbitrary-Shaped Scene Text Detection</a>
@@ -135,7 +134,7 @@
       Abstract
       </button>   
       <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Text detection in natural scenarios, has made significant progress with the deep learning architecture. Towards arbitrary-shaped text detection, fracture detection is the major concern due to the lack of semantic relationship within an instance in existing methods. To circumvent this dilemma, we propose a novel network to learn an Enhanced Intra-Instance Semantic Relationship (EI 2 SR) which consists of Text-Specific Attention Mechanism (TAM) and Border Attraction Grouping (BAG). The former models the rich semantic information between different coarse-grained text regions to guide the fine-grained learning of corresponding text representations. The latter enhances the border-center semantic correlation by establishing high-dimension embedding space to attract and group the border at both ends to their corresponding center. Extensive experimental results show that the proposed EI 2 SR achieves state-of-the-art or competitive performance on existing benchmarks.</p></div>
-      <p style="margin:0"><button class="accordion">
+  
       
 
     <a style="margin:0; font-size:100%; font-weight:bold" href="https://arxiv.org/abs/2302.14323">Read Pointer Meters in complex environments based on a Human-like Alignment and Recognition Algorithm</a>
@@ -148,10 +147,49 @@
         Abstract
         </button>   
         <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Recently, developing an automatic reading system for analog measuring instruments has gained increased attention, as it enables the collection of numerous state of equipment. Nonetheless, two major obstacles still obstruct its deployment to real-world applications. The first issue is that they rarely take the entire pipeline's speed into account. The second is that they are incapable of dealing with some low-quality images (i.e., meter breakage, blur, and uneven scale). In this paper, we propose a human-like alignment and recognition algorithm to overcome these problems. More specifically, a Spatial Transformed Module(STM) is proposed to obtain the front view of images in a self-autonomous way based on an improved Spatial Transformer Networks(STN). Meanwhile, a Value Acquisition Module(VAM) is proposed to infer accurate meter values by an end-to-end trained framework. In contrast to previous research, our model aligns and recognizes meters totally implemented by learnable processing, which mimics human's behaviours and thus achieves higher performances. Extensive results verify the good robustness of the proposed model in terms of the accuracy and efficiency.</p></div>
-        <p style="margin:0"><button class="accordion">
+      
+
+
+        <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/10094653">Aprogressive Image Dehazing Framework with inter and Intra Contrastive Learning</a>
+        <br>
+        <span>Honglei Xu,Shaohui Liu, <a style="font-size:100%" >Yan Shu</a>, Feng Jiang</span>
+        <br>
+        <span>ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Accept.<span>
+<p>
+  <button class="accordion">
+        Abstract
+        </button>   
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Image dehazing, aims to estimate latent haze-free images from hazy images, suffering from a lot of lost information. Existing contrastive learning methods tend to utilize hazefree images as positive samples without consideration of negative samples. Even if negative samples are employed, the connection between patches within an image is always ignored. In addition, it is hard to train end-to-end dehazing networks due to the enormous gap between hazy images and corresponding clear images. In this paper, we propose a novel progressive image dehazing framework with inter and intra contrastive learning to solve the above problems. Specifically, the Inter and Intra Contrastive Learning (IICL) is proposed, in which the brightest and darkest patches within the same image are considered for contrastive learning. Furthermore, a progressive image dehazing framework consisting of an efficient Pre-restore Module (PRM) and an Alternative Restored Module (ARM) is proposed to facilitate the end-to-end model training. It is noted that our framework can be a complement to existing image dehazing methods. Extensive experiments on the dehazing benchmark demonstrate that our framework benefits various dehazing models which surpass previous state-of-the-art image dehazing methods.</p></div>
+      
+    
+        <a style="margin:0; font-size:100%; font-weight:bold">VVA: Video Values Analysis</a>
+        <br>
+        <span>Yachun Mi, <a style="font-size:100%" >Yan Shu</a>, Honglei Xu, Shaohui Liu, Feng Jiang</span>
+        <br>
+        <span>2023 Chinese Conference on Pattern Recognition and Computer Vision (PRCV2023), Accept.<span>
+<p>
+  <button class="accordion">
+        Abstract
+        </button>   
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> User-generated content videos have attracted increasingly attention due to its dominant role in social platforms. It is crucial to analyze values in videos because the extensive range of video content results in significant variations in the subjective quality of videos. However, the research literature on Video Values Analysis (VVA) is very scarce, which aims to evaluate the compatibility between video content and the social mainstream values. Meanwhile, existing  video content analysis methods are mainly based on classification techniques, which can not adequate VVA due to their coarse-grained manners. To tackle this challenge, we propose a framework to generate more fine-grained scores for diverse videos, termed as Video Values Analysis Model (VVAM), which consists of a feature extractor based on R3D, a feature aggregation module based on Transformer and a regression head based on MLP. In addition, considered texts in videos can be key clues to improve VVA, we design a new pipeline, termed as Text-Guided Video Values Analysis Model (TG-VVAM), in which texts in videos are spotted by OCR tools and a cross-modal fusion module is used to combine the vision and text features. To further facilitate the VVA, we construct a large-scale dataset, termed as Video Value Analysis Dataset (VVAD), which contains 53,705 short videos of various types from main social platforms. Experiments demonstrate that our proposed VVAM and TG-VVAM achieves promising results in the VVAD. </p></div>
+      
+    
+         
+        <a style="margin:0; font-size:100%; font-weight:bold">Uformer++: Light Uformer for Image Restoration</a>
+        <br>
+        <span> Honglei Xu, Shaohui Liu, <a style="font-size:100%" >Yan Shu</a>, Feng Jiang</span>
+        <br>
+        <span> 2023 International Conference on Neural Information Processing (ICONIP 2023), Accept.<span>
+<p>
+  <button class="accordion">
+        Abstract
+        </button>   
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Based on UNet, numerous outstanding image restoration models have been developed, and Uformer is no exception. The exceptional restoration performance of Uformer is not only attributable to its novel modules, but also to the network's greater depth. Increased depth does not always lead to better performance, but it does increase the number of parameters and the training difficulty. In this paper, we propose Uformer++, a reconstructed Uformer based on an efficient ensemble of UNets of varying depths that partially share an encoder and co-learn simultaneously under deep supervision. Our proposed new architecture has significantly fewer parameters than the vanilla Uformer, but still with promising results achieved. Considering that different channel-wise features contain totally different weighted information and so are pixel-wise features, a novel Nonlinear Activation Free Feature Attention (NAFFA) module combining Simplified Channel Attention (SCA) and Simplified Pixel Attention (SPA) is added to the model. The experimental results on various challenging benchmarks demonstrate that Uformer++ has the least computational cost while maintaining performance.</p></div>
+      
+
 
    
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://doi.org/10.1016/j.jeconom.2020.07.056">Understanding Migration Aversion Using Elicited Counterfactual Choice Probabilities</a> <br> with <a href="https://www.newyorkfed.org/research/economists/kosar/index.html">Gizem Ko&#351;ar</a> and <a href="https://www.newyorkfed.org/research/economists/vanderklaauw/index.html">Wilbert van der Klaauw</a> <br> <i>Journal of Econometrics</i>, 2022, 231 (1): 123&ndash;147.  <br><button class="accordion"> 
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://ieeexplore.ieee.org/abstract/document/10094653">Understanding Migration Aversion Using Elicited Counterfactual Choice Probabilities</a> <br> with <a href="https://www.newyorkfed.org/research/economists/kosar/index.html">Gizem Ko&#351;ar</a> and <a href="https://www.newyorkfed.org/research/economists/vanderklaauw/index.html">Wilbert van der Klaauw</a> <br> <i>Journal of Econometrics</i>, 2022, 231 (1): 123&ndash;147.  <br><button class="accordion"> 
       Abstract
     </button>
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>This paper investigates how migration and location choice decisions depend on a large set of location characteristics, with particular focus on measuring the importance and nature of non-monetary costs of moving. We employ a stated-preference approach to elicit respondents' choice probabilities for a set of hypothetical choice scenarios, using two waves from the NY Fed's Survey of Consumer Expectations. Our stated probabilistic choice approach allows us to recover the distribution of individual-level preferences for location and mobility attributes without concerns about omitted variables and selection biases that hamper analyses based on observed mobility choices alone. We estimate substantial heterogeneity in the willingness-to-pay (WTP) for location characteristics and in moving costs, both across and within demographic groups. We find moving costs to be strongly associated with attachment to the current neighborhood and dwelling and to social networks. Our results indicate evidence of sorting into current locations based on preferences for location attributes as well as a strong negative association between respondents' non-monetary moving costs and their moving expectations and actual mobility decisions. </p></div>
