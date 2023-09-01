@@ -187,6 +187,31 @@
         <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>Based on UNet, numerous outstanding image restoration models have been developed, and Uformer is no exception. The exceptional restoration performance of Uformer is not only attributable to its novel modules, but also to the network's greater depth. Increased depth does not always lead to better performance, but it does increase the number of parameters and the training difficulty. In this paper, we propose Uformer++, a reconstructed Uformer based on an efficient ensemble of UNets of varying depths that partially share an encoder and co-learn simultaneously under deep supervision. Our proposed new architecture has significantly fewer parameters than the vanilla Uformer, but still with promising results achieved. Considering that different channel-wise features contain totally different weighted information and so are pixel-wise features, a novel Nonlinear Activation Free Feature Attention (NAFFA) module combining Simplified Channel Attention (SCA) and Simplified Pixel Attention (SPA) is added to the model. The experimental results on various challenging benchmarks demonstrate that Uformer++ has the least computational cost while maintaining performance.</p></div>
       
 
+  <a style="margin:0; font-size:100%; font-weight:bold">TextLinker: Learning Self-correcting Component Connectivity for Arbitrary-Shaped Text Detection</a>
+        <br>
+        <span> <a style="font-size:100%" >Yan Shu</a>, Yan Li, Binyang Li, Xiantong Zhen</span>
+        <br>
+        <span>IEEE Transactions on Image Processing (TIP), Under Review.<span>
+<p>
+  <button class="accordion">
+        Abstract
+        </button>   
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Text detection in natural scenarios is a vital step of scene text understanding systems for a variety of text-related applications. Nonetheless, it is challenging to model arbitrary-shaped text instance with extremely inconsistent spatial distances between text components. In this paper, we propose a novel text detector, named TextLinker, which learns self-corrected component connectivity to deal with arbitrary-shaped texts. More specifically, the self-corrected mechanism is realized by a fusion-transform module (FTM) which bridges Morphological Space (MPS) and Embedding Space (EBS). Text component bounding boxes are produced and their connectivity is initiated in MPS, followed by the re-corrected connectivity implemented by pixel aggregation in EBS. FTM is made up of a fusion module and a transform module. The fusion module can introduce embedding loss in EBS to guide more accurate connectivity in MPS and the transform module can reduce the parameter influences from MPS to EBS, which is the key of self-corrected mechanism. Experimental results on two public challenging benchmarks, i.e., MSRA-TD500 and SCUT-CTW1500, show that our Textlinker outperforms other state-of-the-art methods. To further demonstrate the effectiveness of our work, we release a new, more challenging dataset that consists of many arbitrary-shaped text instances with extremely inconsistent spatial distances, on which our approach surpasses other methods by a large margin up to 3%.</p></div>
+
+         
+          <a style="margin:0; font-size:100%; font-weight:bold">Character Can Speak Directly: An End-to-End Character Region Excavation Network for Scene Text Spotting</a>
+        <br>
+        <span> <a style="font-size:100%" >Yan Shu</a>, Yan Li, Binchang Zhang, David Doermann</span>
+        <br>
+        <span>NeuroComputing, Under Review.<span>
+<p>
+  <button class="accordion">
+        Abstract
+        </button>   
+        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>End-to-end scene text spotting methods have received increased research attention in virtue of their promising results. However, most of them can not suit for real-world applications owing to their relatively complex pipeline. In this paper, we propose an end-to-end Character Region Excavation Network to shorten this pipeline. Our contribution are three-fold: 1) For the first time, we skip the step of text region retrieval to simplify the text spotting pipeline, where characters can be spotted from scene images directly by CNN-based classifier. 2) We design a novel RoI-Oriented-Align layer for multi-oriented character region feature sampling, which improves the performance of recognizer. 3) We propose a novel progressive learning strategy for gradually bridging the gap between synthetic data and real-world images, tackle the challenge where Character-level labeling is required in the training process but is prohibitively expensive. Extensive experiments demonstrate that our proposed method is robust and effective in horizontal, oriented and curved texts, implying that it achieves comparable results with existing state-of-the-art on the ICDAR2013, ICDAR2015 and Total-Text, respectively.</p></div>
+      
+
+
 
    
    
